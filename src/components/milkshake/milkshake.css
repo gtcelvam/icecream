@@ -1,0 +1,19 @@
+.milkshake-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+.milkshake-container>div{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.milkshake-title-container{
+    padding: 0 2%;
+}
+.milkshake-title-container p{
+    text-align: left;
+}

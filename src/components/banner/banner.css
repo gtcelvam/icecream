@@ -1,0 +1,90 @@
+
+.banner-container{
+    width: calc(100vw - 0.1rem);
+    height: calc(100vh - 0.1rem);
+    background-color: var(--theme-blue);
+}
+.banner-bg{
+    position: absolute;
+    width: calc(100vw - 0.1rem);
+    height: calc(100vh - 0.1rem);
+    top: 0;
+    left: 0;
+    background-color: darkblue;
+    opacity: 0.7;
+    background-blend-mode: screen;
+}
+.banner-img{
+    position: absolute;
+    width: calc(100vw - 0.1rem);
+    height: calc(100vh - 0.1rem);
+    z-index: 3;
+}
+.banner-img .banner-bg-img{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+.banner-img .banner-title{
+    position: absolute;
+    width: 20%;
+    bottom: 20%;
+    left: 50%;
+    color: white;
+}
+.banner-title h1{
+    font-size: 6vw;
+    font-family: 'Lobster', cursive;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+.banner-title p{
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5vw;
+}
+.banner-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: white;
+}
+.ice-cream-logo,.ice-cream-title{
+    height: 50%;
+}
+.ice-cream-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ice-cream-logo img{
+    width: 50%;
+}
+.milma{
+    margin: 0;
+    font-size: 1.5vw;
+    font-family: cursive;
+    font-weight: 800;
+    color: blue;
+}
+.ice-cream-title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: blue;
+    width: 90%;
+    border-radius: 0 0 150px 150px;
+}
+.ice-cream-title p{
+    font-size: 1.2vw;
+    color:white;
+    font-weight: 600;
+}

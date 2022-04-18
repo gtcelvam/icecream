@@ -1,0 +1,99 @@
+.admin{
+    width: 80%;
+    height: calc(100vh - 30px);
+    margin:0 auto;
+    border:1px solid #DCDCDC;
+}
+/* Add Product */
+.add-product-container{
+    border:1px solid #DCDCDC;
+    margin: 1%;
+    padding: 1%;
+}
+.add-product-container p{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #c5c4c4
+}
+.form-container{
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-element{
+    height: 25px;
+}
+.input-container{
+    padding-left: 1%;
+    outline: none;
+    border:1px solid grey;
+    border-radius: 4px;
+}
+.add-btn{
+    width: 150px;
+    height: 30px;
+    font-size: medium;
+    background-color: royalblue;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Add Product Ends Here */
+
+/* Product Table */
+.product-table-container{
+    margin: 1%;
+}
+.product-table{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid #DCDCDC;
+    border-collapse: collapse;
+}
+.product-table th{
+    padding: 5px 0;
+}
+.product-table td{
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+}
+.input-edit{
+    position:absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.input-edit input{
+    width: 80%;
+    outline: none;
+    border:1px solid grey;
+}
+.display-inactive{
+    display: none;
+}
+.display-active{
+ display: block;
+}
+.btn{
+    width: 5vw;
+    height: 30px;
+    font-size: medium;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit-btn{
+    background-color: green;
+}
+.delete-btn{
+    background-color: red;
+}
